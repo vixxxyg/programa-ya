@@ -2,8 +2,8 @@
   box-sizing: border-box;
 }
 
-html{
-    scroll-behavior: smooth;
+html {
+  scroll-behavior: smooth;
 }
 
 body {
@@ -52,8 +52,8 @@ button:hover {
   margin: auto;
 }
 
-.color-acento{
-    color: blueviolet;
+.color-acento {
+  color: blueviolet;
 }
 
 header {
@@ -115,40 +115,44 @@ header a:hover {
   color: white;
 }
 
+#hero button {
+  font-size: 5vw;
+}
+
 #somos-proya .container {
-    text-align: center;
-    padding: 100px 12px;
+  text-align: center;
+  padding: 100px 12px;
 }
 
 #nuestros-programas {
-    background-color: rgb(30, 30, 30);
-    color: white;
-    text-align: center;
+  background-color: rgb(30, 30, 30);
+  color: white;
+  text-align: center;
 }
 
-#nuestros-programas .container{
-    padding: 100px 12px;
+#nuestros-programas .container {
+  padding: 100px 12px;
 }
 
-#nuestros-programas h2{
-    margin-top: 0px;
-    font-size: 3.2em;
+#nuestros-programas h2 {
+  margin-top: 0px;
+  font-size: 3.2em;
 }
 
-#nuestros-programas p{
-    display: none;
+#nuestros-programas p {
+  display: none;
 }
 
-#nuestros-programas .carta{
-    background-position: center;
-    background-size: cover;
-    padding: 50px;
-    margin: 20px;
-    border-radius: 15px;
+#nuestros-programas .carta {
+  background-position: center;
+  background-size: cover;
+  padding: 50px;
+  margin: 20px;
+  border-radius: 15px;
 }
 
 .carta:first-child {
-    background-image: linear-gradient(
+  background-image: linear-gradient(
       0deg,
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
@@ -157,7 +161,7 @@ header a:hover {
 }
 
 .carta:nth-child(2) {
-    background-image: linear-gradient(
+  background-image: linear-gradient(
       0deg,
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
@@ -166,10 +170,55 @@ header a:hover {
 }
 
 .carta:nth-child(3) {
-    background-image: linear-gradient(
+  background-image: linear-gradient(
       0deg,
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
     ),
     url("img/python.jpg");
+}
+
+#caracteristicas .container {
+  text-align: center;
+  padding: 100px 12px;
+}
+
+#caracteristicas li {
+  margin: 16px 100px;
+  font-weight: bold;
+}
+
+#final {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: rgb(30, 30, 30);
+  color: white;
+  height: 80vh;
+}
+
+#final h2 {
+  font-size: 9vw;
+}
+
+#final button {
+  font-size: 5vw;
+}
+
+footer {
+  background-color: rgb(230, 230, 230);
+}
+
+footer p {
+  margin: 0px;
+  color: rgb(100, 100, 100);
+}
+
+footer .container {
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
 }
